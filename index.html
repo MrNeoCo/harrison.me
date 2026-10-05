@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Harrison Arkue Jr. — IT Professional, Lecturer, Programmer</title>
+<meta name="description" content="Harrison Arkue Jr. — IT professional, lecturer and programmer. Systems, databases, programming and education.">
+<meta name="theme-color" content="#02040A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;800;900&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav id="nav" aria-label="Main">
+  <a href="#top" class="mark" aria-label="Harrison Arkue Jr. — home"><b>H</b>A</a>
+  <div class="links"><a href="#about">About</a><a href="#path">Path</a><a href="#skills">Skills</a><a href="#work">Work</a><a href="#contact">Contact</a></div>
+  <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+</nav>
+<div class="menu" id="menu" aria-hidden="true"><a href="#about">About</a><a href="#path">Path</a><a href="#skills">Skills</a><a href="#work">Work</a><a href="#contact">Contact</a></div>
+
+<main id="top">
+
+<!-- HERO -->
+<header class="hero">
+  <div class="photo"><img src="images/hero.jpg" alt="Portrait of Harrison Arkue Jr. in profile, lit by electric-blue light" fetchpriority="high"></div>
+  <div class="aura" aria-hidden="true"></div>
+  <div class="hero-copy">
+    <h1 class="display"><span class="white-text intro" style="--d:.2s">Harrison</span><span class="glow-text intro" style="--d:.55s">Arkue Jr.</span></h1>
+    <p class="roles intro" style="--d:1s"><span>IT Professional</span><span>Lecturer</span><span>Programmer</span></p>
+    <p class="tag intro" style="--d:1.3s">Technology • Education • Innovation</p>
+    <div class="cta intro" style="--d:1.6s">
+      <a class="btn primary" href="#work">Explore Work</a>
+      <a class="btn" href="#contact">Let's Connect</a>
+    </div>
+  </div>
+  <span class="scrollcue" aria-hidden="true"></span>
+</header>
+
+<!-- ABOUT -->
+<section class="about" id="about" aria-label="About">
+  <div class="stage">
+    <img id="aboutImg" src="images/about.jpg" alt="Harrison Arkue Jr. looking over his shoulder against a glowing blue ring" loading="lazy">
+    <div>
+      <h2 class="display white-text rv">I build knowledge through technology.</h2>
+      <p class="sub rv" style="--d:.3s">IT professional, lecturer and continuous learner.</p>
+      <div class="kws" id="kws" aria-label="Focus areas">
+        <span class="kw">SYSTEMS</span><span class="kw">DATABASES</span><span class="kw">PROGRAMMING</span><span class="kw">EDUCATION</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION + EXPERIENCE -->
+<section class="tl" id="path" aria-label="Education and experience">
+  <div class="bgimg" aria-hidden="true"><img src="images/timeline.jpg" alt="" loading="lazy"></div>
+  <div class="track" id="track">
+    <span class="fill"></span>
+    <div class="ms"><span class="halo"></span><span class="dot"></span><h3 class="display white-text rv">BSc IT</h3><p class="rv">System Administration</p></div>
+    <div class="ms"><span class="halo"></span><span class="dot"></span><h3 class="display white-text rv">MSc IT</h3><p class="rv">System Administration</p></div>
+    <div class="ms"><span class="halo"></span><span class="dot"></span><h3 class="display glow-text rv">Lecturer</h3><p class="rv">Synetic Business College</p></div>
+  </div>
+</section>
+
+<!-- SKILLS ORBIT -->
+<section class="skills" id="skills" aria-label="Skills">
+  <div class="orbit" id="orbit">
+    <div class="ring r2"></div><div class="ring r1"></div>
+    <svg viewBox="0 0 100 100" id="lines" aria-hidden="true"></svg>
+    <div class="hub"><span>HARRISON</span></div>
+  </div>
+  <p class="cap" id="cap" aria-live="polite">&nbsp;</p>
+</section>
+
+<!-- PROJECTS -->
+<section class="work" id="work" aria-label="Projects">
+  <div class="grid">
+    <article class="card c-feat rv">
+      <div class="photo"><img src="images/featured.jpg" alt="" loading="lazy"></div>
+      <span class="cat">Foundation • Education</span>
+      <h3>H Info Tech Education Foundation</h3>
+      <p>Bringing practical IT learning within reach.</p>
+      <button class="more" type="button" data-i="0">Explore</button>
+    </article>
+
+    <article class="card c-2 rv" style="--d:.1s">
+      <div class="art" aria-hidden="true"><svg width="260" height="260" viewBox="0 0 260 260" fill="none" stroke="#20A4FF"><circle cx="130" cy="130" r="30" opacity=".7"/><circle cx="130" cy="130" r="64" opacity=".45"/><circle cx="130" cy="130" r="98" opacity=".25"/><circle cx="130" cy="130" r="124" opacity=".12"/><circle cx="130" cy="130" r="4" fill="#20A4FF"/></svg></div>
+      <span class="cat">Training Centre</span>
+      <h3>H-Tech Education Centre</h3>
+      <p>A hands-on space to learn and build.</p>
+      <button class="more" type="button" data-i="1">Explore</button>
+    </article>
+
+    <article class="card c-3 rv" style="--d:.2s">
+      <div class="art" aria-hidden="true"><span style="font-family:var(--display);font-weight:900;font-size:9rem;color:rgba(32,164,255,.22);text-shadow:0 0 40px rgba(8,123,255,.5)">&lt;/&gt;</span></div>
+      <span class="cat">Programming</span>
+      <h3>Python Training Project</h3>
+      <p>Beginner-friendly Python, taught by building.</p>
+      <button class="more" type="button" data-i="2">Explore</button>
+    </article>
+
+    <article class="card c-4 rv">
+      <div class="art" aria-hidden="true"><svg width="280" height="220" viewBox="0 0 280 220" fill="none" stroke="#20A4FF" stroke-width="1"><g opacity=".4"><path d="M40 40L140 110L240 50M40 110L140 110L240 110M40 180L140 110L240 170M40 40V110V180M240 50V110V170"/></g><g fill="#20A4FF"><circle cx="40" cy="40" r="5"/><circle cx="40" cy="110" r="5"/><circle cx="40" cy="180" r="5"/><circle cx="140" cy="110" r="9"/><circle cx="240" cy="50" r="5"/><circle cx="240" cy="110" r="5"/><circle cx="240" cy="170" r="5"/></g></svg></div>
+      <span class="cat">Learning</span>
+      <h3>AI &amp; Generative AI Learning</h3>
+      <p>Using AI tools with confidence and care.</p>
+      <button class="more" type="button" data-i="3">Explore</button>
+    </article>
+
+    <article class="card c-5 rv" style="--d:.1s">
+      <div class="art" aria-hidden="true"><svg width="240" height="200" viewBox="0 0 240 200"><g fill="#087BFF"><rect x="20" y="110" width="26" height="70" opacity=".35"/><rect x="62" y="80" width="26" height="100" opacity=".5"/><rect x="104" y="95" width="26" height="85" opacity=".4"/><rect x="146" y="50" width="26" height="130" opacity=".65"/><rect x="188" y="20" width="26" height="160" opacity=".85"/></g></svg></div>
+      <span class="cat">Data</span>
+      <h3>Data Analysis Using Excel</h3>
+      <p>From raw sheets to clear answers.</p>
+      <button class="more" type="button" data-i="4">Explore</button>
+    </article>
+
+    <article class="card c-6 rv" style="--d:.2s">
+      <div class="art" aria-hidden="true"><svg width="240" height="200" viewBox="0 0 240 200" fill="none" stroke="#20A4FF"><rect x="50" y="40" width="140" height="110" rx="4" opacity=".25"/><rect x="40" y="30" width="140" height="110" rx="4" opacity=".4"/><rect x="30" y="20" width="140" height="110" rx="4" opacity=".7"/><path d="M50 48H150M50 66H130M50 84H142" opacity=".6"/></svg></div>
+      <span class="cat">Education</span>
+      <h3>Student Teaching &amp; Academic Resources</h3>
+      <p>Guides and materials that make lessons stick.</p>
+      <button class="more" type="button" data-i="5">Explore</button>
+    </article>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section class="certs" aria-label="Certifications">
+  <div class="wrap">
+    <div class="rv">
+      <div class="display glow-text big"><span id="count" data-to="50">50</span>+</div>
+      <div class="label">Certifications &amp; Training</div>
+    </div>
+    <div class="rv" style="--d:.2s">
+      <div class="chips">
+        <span class="chip">Python</span><span class="chip">Digital Marketing</span><span class="chip">AI Tools</span><span class="chip">Computer Networks</span><span class="chip">Excel</span><span class="chip">IT</span>
+      </div>
+      <button class="btn" type="button" id="certBtn">View All</button>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact" aria-label="Contact">
+  <div class="portrait" aria-hidden="true"><img src="images/contact.jpg" alt="" loading="lazy"></div>
+  <div class="top">
+    <div>
+      <h2 class="display rv"><span class="white-text">Let's</span><br><span class="glow-text">Connect.</span></h2>
+      <p class="line rv" style="--d:.2s">Technology, education and ideas.</p>
+      <ul class="details rv" style="--d:.3s">
+        <li><a href="mailto:arkueharrison@gmail.com">arkueharrison@gmail.com</a></li>
+        <li><a href="tel:+919872628862">+91-9872628862</a></li>
+        <li>India</li>
+      </ul>
+      <div class="cta rv" style="--d:.4s">
+        <a class="btn primary" href="mailto:arkueharrison@gmail.com">Email</a>
+        <a class="btn" href="#" data-link="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="#" data-link="github" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="formwrap">
+    <form id="form" novalidate class="rv">
+      <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+      <div class="field"><input id="name" name="name" type="text" placeholder=" " autocomplete="name"><label for="name">Name</label><span class="err" data-for="name"></span></div>
+      <div class="field"><input id="email" name="email" type="email" placeholder=" " autocomplete="email"><label for="email">Email</label><span class="err" data-for="email"></span></div>
+      <div class="field"><textarea id="message" name="message" placeholder=" " rows="4"></textarea><label for="message">Message</label><span class="err" data-for="message"></span></div>
+      <button class="btn primary" type="submit" id="send">Send Message</button>
+      <p class="status" id="status" role="status"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <a class="mark" href="#top" aria-label="Back to top"><b>H</b>A</a>
+  <span><strong>Harrison Arkue Jr.</strong>IT Professional • Lecturer • Programmer</span>
+</footer>
+
+<dialog id="dlg" aria-labelledby="dTitle">
+  <button class="x" type="button" id="dClose" aria-label="Close">&times;</button>
+  <span class="cat" id="dCat"></span>
+  <h3 id="dTitle" class="display"></h3>
+  <p id="dText"></p>
+  <div class="chips" id="dTags"></div>
+  <div class="cta"><button class="btn primary" type="button" id="dTalk">Discuss this project</button><button class="btn" type="button" id="dBack">Close</button></div>
+</dialog>
+<dialog id="certDlg" aria-labelledby="cTitle">
+  <button class="x" type="button" id="cClose" aria-label="Close">&times;</button>
+  <span class="cat">Certifications &amp; Training</span>
+  <h3 id="cTitle" class="display">50+</h3>
+  <ul class="clist" id="cList"></ul>
+  <div class="cta"><button class="btn" type="button" id="cBack">Close</button></div>
+</dialog>
+
+<dialog id="soon" class="soon" aria-labelledby="sTitle">
+  <button class="x" type="button" id="sClose" aria-label="Close">&times;</button>
+  <span class="status"><i></i>Under construction</span>
+  <h3 id="sTitle" class="display"><span class="white-text">Coming</span> <span class="glow-text">Soon.</span></h3>
+  <p id="sText">This is being updated. Please check back shortly.</p>
+  <div class="cta"><button class="btn primary" type="button" id="sBack">Back to portfolio</button><a class="btn" href="mailto:arkueharrison@gmail.com">Get in touch</a></div>
+</dialog>
+
+<script src="js/main.js"></script>
+</body>
+</html>
